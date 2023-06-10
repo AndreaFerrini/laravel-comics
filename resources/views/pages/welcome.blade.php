@@ -5,5 +5,5 @@
 @endsection
 
 @section ( "content" )
-    <h1>Pagina home con Comics</h1>
+    <h1 class="text-center">Pagina home con Comics</h1>
 @endsection

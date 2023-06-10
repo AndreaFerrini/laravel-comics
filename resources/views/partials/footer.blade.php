@@ -1,5 +1,5 @@
 <footer>
 
-    spazio footer
+<p>&copy; AndFer</p>
 
 </footer>

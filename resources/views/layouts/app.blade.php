@@ -7,7 +7,7 @@
     <title>@yield ( "title-page" )</title>
     @vite('resources/js/app.js')
 </head>
-<body>
+<body class="container">
     
     @include( "partials.header" )
 

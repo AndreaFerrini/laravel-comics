@@ -59,8 +59,8 @@ $menuLinks= [
 <header>
     <nav>
         <div class="">
-            <img src="" alt="logo dc">
-            <ul>
+            <img src=" {{ Vite::asset('resources/images/dc-logo.png') }}" alt="logo dc" class="mt-3 mb-3">
+            <ul class="d-flex justify-content-around align-items-center">
                 @foreach( $menuLinks as $elem)
                 <li>
                     <a href="{{ $elem['url'] }}">{{ $elem["nome"] }}</a>

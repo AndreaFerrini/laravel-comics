@@ -12,7 +12,7 @@
                 <div class="col-4">
                     <div class="card">
                         <img class="card-img-top" src="{{ $elem['thumb'] }}" alt="" srcset="">
-                        <div class="card-body">
+                        <div class="card-body text-center">
                             <h4 class="card-title">{{ $elem["series"] }}</h4>
                             <span class="card-text">{{ $elem["price"] }}</span>
                         </div>
